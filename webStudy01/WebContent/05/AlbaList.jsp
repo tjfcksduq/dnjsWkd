@@ -24,6 +24,7 @@
 
 <tbody>
 <%
+	// 몰랑에러양
 	Map<String, AlbasengVO> albaMap = SimpleFormProcessServlet.albasengs;
 	for(Entry<String, AlbasengVO> entry : albaMap.entrySet()){
 		String pattern = "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>";
