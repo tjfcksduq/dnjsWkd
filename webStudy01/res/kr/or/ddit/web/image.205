@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function changeHandler(){
+		document.imgForm.submit();
+	}
+</script>
+</head>
+<body>
+<form name="imgForm" action="imageService" method="get">
+
+ <select name="img" onchange="changeHandler();">@imageList</select> 
+
+<!-- <input type="submit" value="버튼"> -->
+
+</form>
+
+</body>
+</html>
